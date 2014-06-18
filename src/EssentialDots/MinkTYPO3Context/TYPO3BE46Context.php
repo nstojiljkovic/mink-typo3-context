@@ -20,7 +20,7 @@ use  Behat\Mink\Exception\ElementNotFoundException,
 /**
  * Features context.
  */
-class TYPO3_BE_4_6_Context extends \EssentialDots\Weasel\GeneralRawMinkContext {
+class TYPO3BE46Context extends \EssentialDots\Weasel\GeneralRawMinkContext {
 	/**
 	 * constructor
 	 */
