@@ -82,7 +82,7 @@ class TYPO3BEContext extends \EssentialDots\Weasel\GeneralRawMinkContext {
 			$settings = array();
 		}
 			// merge arrays
-		$this->settings = self::array_merge_recursive_overrule($generalSettings, $settings);
+		$this->settings = self::arrayMergeRecursiveOverrule($generalSettings, $settings);
 
 		// NOTE: this won't work atm as ContextReader::readFromContext has already been executed
 		// TODO: find a nice solution for this :)
